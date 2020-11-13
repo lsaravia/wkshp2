@@ -1,0 +1,18 @@
+name: "workshop2"
+title: "2nd Complex Systems Workshop"
+output_dir: "."
+theme: theme.css
+navbar:
+  logo:
+    image: img/logoungsverde.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Dia 1/ Day 1"
+      href: dia1/programa.html
+    - text: "Dia 2/ Day 2"
+      href: dia1/programa.html
+output: 
+  distill::distill_article:
+    toc: true
+    toc_float: true
